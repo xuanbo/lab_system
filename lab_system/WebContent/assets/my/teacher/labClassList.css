@@ -1,0 +1,24 @@
+.listDiv{
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 80%;
+}
+
+a{
+	cursor: pointer;
+}
+
+.listDiv p{
+	text-align: center;
+	font-size: 150%;
+}
+
+.listDiv p a:HOVER {
+	text-decoration: none;
+	color: red;
+}
+
+td a:HOVER{
+	text-decoration: none;
+	color: red;
+}

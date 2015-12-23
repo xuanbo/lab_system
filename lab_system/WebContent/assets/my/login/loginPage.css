@@ -1,0 +1,94 @@
+body{
+	background-image: url("../../../resource/images/loginPage/bg.jpg");
+	background-size: 100%;
+}
+
+#div_center{
+	margin-top: 5%;
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+	background-color: #000000;
+	opacity: 0.5;
+	border-radius: 20px;
+	padding: 20px;
+	z-index: 2;
+}
+
+#div_center p{
+	width: 100%;
+	height: 5%;
+	text-align: center;
+	text-shadow: 5px 5px 5px;
+	font-size: 35px;
+	color: #ffffff;
+	z-index: 5;
+}
+
+#div_center .inputUP{
+	margin-top: 8%;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	height: 35%;
+	z-index: 5;
+}
+
+#div_center .inputUP #spanUsername{
+	position: relative;
+	margin-top: 8%;
+    margin-left: 20%;
+}
+
+#div_center .inputUP #spanPassword{
+	position: relative;
+	margin-top: 8%;
+	margin-left: 20%;
+}
+
+#div_center .inputUP .inputUsername{
+	width: 60%;
+	height: 20%;
+}
+
+#div_center .inputUP .inputPassword{
+	margin-top: 10%;
+	width: 60%;
+	height: 20%;
+}
+
+#div_center .inputSubmit{
+	margin-top: 5%;
+	height: 6%;
+}
+
+.inputSubmit .inputLogin{
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 30%;
+	height: 100%;
+	border-radius: 20px;
+	color: #ffffff;
+	background-color: #408080;
+	border: 1px solid #2F4F4F;
+	cursor: pointer;
+	font-size: 150%;
+}
+
+
+
+#info{
+	position: fixed;
+	top: 0%;
+	display: none;
+	width: 100%;
+	z-index: 5;
+}
+
+#info .alert #warnInfo{
+    margin-left: 45%;
+	font-size: 150%;
+}
+#info .alert #infoRemove{
+	cursor: pointer;
+}

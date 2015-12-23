@@ -1,0 +1,25 @@
+p{
+	text-align: center;
+	font-size: 120%;
+	color: #8080ff;
+}
+
+h2{
+	text-align: center;
+	
+}
+
+.lossEquipmentList{
+	position: absolute;
+	left: 10%;
+	width: 80%;
+}
+
+.lossEquipmentList .msg{
+	text-align: center;
+	color: #00ff40;
+}
+
+.lossEquipmentList .lossEquipmentSubmit{
+	margin-top: 2%;
+}

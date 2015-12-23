@@ -1,0 +1,17 @@
+#picker{
+	position: fixed;
+	top: 45%;
+	left: 0%;
+	width: 60px;
+    height: 60px;
+	border-radius: 30px;
+}
+
+#ctlBtn{
+	position: fixed;
+	top: 60%;
+	left: 0%;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}

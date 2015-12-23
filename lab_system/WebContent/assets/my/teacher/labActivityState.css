@@ -1,0 +1,26 @@
+.labActivityStateBar{
+	margin-top: 6%;
+	width: 100%;
+	height: 6%;
+}
+
+.labActivityStateBar a:HOVER {
+	text-decoration: none;
+}
+
+.labActivityStateBar a:nth-child(1){
+	margin-left: 10%;
+}
+
+.labActivityStateBar a:nth-child(2){
+	margin-left: 3%;
+}
+.labActivityStateBar a:nth-child(3){
+	margin-left: 3%;
+}
+.labActivityStateBar a:nth-child(4){
+	margin-left: 3%;
+}
+.labActivityStateBar a:nth-child(5){
+	margin-left: 3%;
+}

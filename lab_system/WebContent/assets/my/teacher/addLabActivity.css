@@ -1,0 +1,28 @@
+.addLabActivity{
+	position: absolute;
+	left: 5%;
+    margin-top: 0%;
+	width: 90%;
+	height: 70%;
+}
+
+.addLabActivity label {
+	text-align: center;
+	font-size: 120%;
+	line-height: 30px;
+}
+
+.addLabActivity #equipmentList{
+	color: #0080ff;
+}
+
+.addLabActivity #equipmentList span{
+	margin-left: 10px;
+	cursor: pointer;
+	padding: 5px 5px 5px;
+}
+
+.addLabActivity .form-group h3{
+	text-align: center;
+	color: red;
+}

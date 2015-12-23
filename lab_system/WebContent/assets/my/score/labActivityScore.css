@@ -1,0 +1,10 @@
+.scoreList{
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 80%;
+}
+
+.scoreList p{
+	text-align: center;
+	font-size: 130%;
+}

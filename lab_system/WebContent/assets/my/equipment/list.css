@@ -1,0 +1,32 @@
+.equipmentTask{
+	margin-top: 1%;
+	height: 6%;
+	width: 100%;
+}
+
+.equipmentTask a:FIRST-CHILD{
+	position: absolute;
+	left: 10%;
+}
+
+.equipmentTask a:nth-child(2){
+	position: absolute;
+	left: 18%;
+}
+
+.equipmentList{
+	position: absolute;
+	margin-top: 4%;
+	margin-left: 10%;
+	height: 60%;
+	width: 80%;
+}
+
+.equipmentList p{
+	text-align: center;
+	font-size: 150%;
+}
+
+.equipmentList span{
+	cursor: pointer;
+}

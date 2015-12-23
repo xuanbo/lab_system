@@ -1,0 +1,24 @@
+#addLabClass{
+	margin-top: 1%;
+	margin-left: 10%;
+}
+
+.listDiv{
+	margin-top: 1%;
+	margin-left: 10%;
+	width: 80%;
+}
+
+a{
+	cursor: pointer;
+}
+
+.listDiv p a:HOVER {
+	text-decoration: none;
+	color: red;
+}
+
+td a:HOVER{
+	text-decoration: none;
+	color: red;
+}

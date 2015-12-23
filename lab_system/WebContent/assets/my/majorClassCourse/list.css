@@ -1,0 +1,11 @@
+.teacherInfoList{
+	position: absolute;
+	margin-top: 6%;
+	left: 10%;
+	width: 80%;
+}
+
+.teacherInfoList p{
+	text-align: center;
+	font-size: 150%;
+}

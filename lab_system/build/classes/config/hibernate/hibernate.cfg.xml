@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+       <mapping class="com.whut.lab.web.entity.Course"/>
+       <mapping class="com.whut.lab.web.entity.Equipment"/>
+       <mapping class="com.whut.lab.web.entity.LabActivity"/>
+       <mapping class="com.whut.lab.web.entity.LabAdmin"/>
+       <mapping class="com.whut.lab.web.entity.LabClass"/>
+       <mapping class="com.whut.lab.web.entity.LossEquipment"/>
+       <mapping class="com.whut.lab.web.entity.MajorClass"/>
+       <mapping class="com.whut.lab.web.entity.Resource"/>
+       <mapping class="com.whut.lab.web.entity.Role"/>
+       <mapping class="com.whut.lab.web.entity.Score"/>
+       <mapping class="com.whut.lab.web.entity.Student"/>
+       <mapping class="com.whut.lab.web.entity.Teacher"/>
+       <mapping class="com.whut.lab.web.entity.TeachProgram"/>
+       <mapping class="com.whut.lab.web.entity.TeachResource"/>
+       <mapping class="com.whut.lab.web.entity.User"/>
+    </session-factory>
+</hibernate-configuration>

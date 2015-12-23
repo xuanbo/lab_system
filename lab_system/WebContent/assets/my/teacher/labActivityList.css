@@ -1,0 +1,18 @@
+.labActivityList{
+	position: absolute;
+	left: 10%;
+	width: 80%;
+	height: 70%;
+}
+
+.labActivityList p{
+	margin-top: 5%;
+	text-align: center;
+	font-size: 150%;
+	color: red;
+}
+
+.labActivityList .title{
+	text-align: center;
+	color: #0080ff;
+}

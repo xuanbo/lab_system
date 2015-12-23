@@ -1,0 +1,28 @@
+.listDiv a button:FIRST-CHILD {
+	position: fixed;
+	top: 45%;
+	left: 0%;
+	width: 60px;
+	height: 60px;
+	line-height: 50px;
+	border-radius: 30px;
+}
+
+.listDiv span{
+	cursor: pointer;
+}
+
+.listDiv span:HOVER {
+	color: #0080ff;
+}
+
+.listDiv p{
+	text-align: center;
+	font-size: 130%;
+}
+
+.listDiv label {
+	text-align: center;
+	font-size: 120%;
+	line-height: 30px;
+}

@@ -1,0 +1,19 @@
+#navigate{
+	margin-top: 5%;
+	font-size: 150%;
+}
+
+#navigate span{
+	cursor: pointer;
+}
+
+p{
+	margin-top: 5%;
+	font-size: 150%;
+	text-align: center;
+	color: #ff0000;
+}
+
+.count{
+	color: #ff0000;
+}

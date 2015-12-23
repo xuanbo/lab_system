@@ -1,0 +1,25 @@
+.title{
+	margin-top: 1%;
+	text-align: center;
+	font-size: 150%;
+	color: black;
+	height: 50px;
+}
+
+a:HOVER{
+	text-decoration: none;
+}
+
+.title select{
+	height: 30px;
+	width: 150px;
+	border: 1px solid #c0c0c0;
+}
+
+.title a span{
+	height: 50px;
+	width: 55px;
+	border-radius: 30px;
+	line-height: 36px;
+	text-align: center;
+}

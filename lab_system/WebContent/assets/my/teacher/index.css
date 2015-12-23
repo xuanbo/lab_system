@@ -1,0 +1,41 @@
+body{
+	
+}
+
+.task{
+	position: absolute;
+	top: 15%;
+	width: 100%;
+	height: 80%;
+}
+
+.task div{
+	float: left;
+	margin-left: 7%;
+	margin-top: 3%;
+	width: 40%;
+	height: 20%;
+	background-color:  #6495ED;
+	border: 1px solid #6495ED;
+	cursor: pointer;
+}
+
+.task div a{
+    display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	font-size: 300%;
+	text-align: center; 
+	color: #ffffff;
+	line-height: 90px;
+}
+
+.task div:HOVER{
+	border: 1px solid #ffff00;
+}
+.task div a:HOVER {
+	text-decoration: none;
+	color: #000000;
+	background-color: #ffff00;
+}

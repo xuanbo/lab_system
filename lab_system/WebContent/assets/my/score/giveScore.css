@@ -1,0 +1,28 @@
+p{
+	text-align: center;
+	font-size: 120%;
+	color: #8080ff;
+}
+
+h2{
+	text-align: center;
+}
+
+.scoreList{
+	position: absolute;
+	left: 10%;
+	width: 80%;
+}
+.scoreList table tr td{
+	line-height: 30px;
+}
+.scoreList table tr td input{
+	width: 100%;
+	height: 100%;
+	border: 0.5px solid #ffffff;
+}
+
+.scoreList .msg{
+	text-align: center;
+	color: #0080ff;
+}
