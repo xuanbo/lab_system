@@ -43,7 +43,7 @@
        
        <c:if test="${not empty pages.getList() }">
           <table class="table table-hover table-bordered table-condensed">
-              <tr class="danger">
+              <tr class="info">
                   <th>预约状态</th>
                   <th>开始时间</th>
                   <th>结束时间</th>

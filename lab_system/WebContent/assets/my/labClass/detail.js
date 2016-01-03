@@ -6,8 +6,17 @@
 		$('.labActivityState').on('change',function(){
 			//获取实验室预约的状态信息
 			var state = $(this).val();
+			alert(state);
 			var id = $(this).data("id");
-			
+			if(state == '预约待处理'){
+				state = 'list';
+			}else if(state == '预约成功'){
+				state = 'stateOk';
+			}else if(state == '预约失败'){
+				state = 'stateFail';
+			}else{
+				state = 'stateEnd';
+			}
 			var href = "labClass/search?id="+id+'&state='+state;
 			$('#search').attr('href',href);
 		});

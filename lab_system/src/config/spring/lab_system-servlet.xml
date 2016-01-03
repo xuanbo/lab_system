@@ -75,4 +75,5 @@
 		<property name="maxInMemorySize" value="40960"/>
 	</bean>
 	
+	<bean id="exceptionResolver" class="com.whut.lab.web.exception.ExceptionHandler"/> 
  </beans>

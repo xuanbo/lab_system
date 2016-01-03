@@ -25,6 +25,19 @@
 <script type="text/javascript" src="assets/my/home/home.js"></script>
 
 <title>主页</title>
+<style>
+        .carousel-indicators li{
+            border: 1px solid white;
+            background-color: grey;
+        }
+        .carousel-indicators .active{
+            background-color: blue;
+        }
+        .item{
+            height: 100%;
+        }
+
+</style>
 </head>
 <body>
    <!-- 引入head jsp -->
@@ -42,7 +55,7 @@
       <div class="carousel-inner" role="listbox">
       
         <div class="item active">
-          <img src="resource/images/home/bg1.png">
+          <img src="resource/images/home/bg1.png" style="height: 100%;">
           <div class="carousel-caption">
             <!-- 此处可添加文字或其他 -->  
             <div style="color: red; font-size: 200%;">
@@ -52,7 +65,7 @@
         </div>
         
         <div class="item">
-          <img src="resource/images/home/bg2.jpg">
+          <img src="resource/images/home/bg2.jpg" style="height: 100%;">
           <div class="carousel-caption">
             <!-- 此处可添加文字或其他 -->
             <div style="color: #ffffff; font-size: 200%;">
@@ -62,7 +75,7 @@
         </div>
         
         <div class="item">
-          <img src="resource/images/home/bg3.jpg">
+          <img src="resource/images/home/bg3.jpg" style="height: 100%;">
           <div class="carousel-caption">
             <!-- 此处可添加文字或其他 -->
             <div style="color: #000000; font-size: 200%;">

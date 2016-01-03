@@ -145,7 +145,7 @@ public class TeachProgramController {
 	             //String path = "/download/teachResource/"+newName;
 	             //String realpath = request.getSession().getServletContext().getRealPath(path);	             
 	             //System.out.println(realpath);
-	             String path = "G:/database_shiyan/lab_system/WebContent/download/teachResource/"+newName;	             
+	             String path = "E:/database_shiyan/lab_system/WebContent/download/teachResource/"+newName;	             
 	             
 	             File localFile = new File(path);
 	             //将文件写到本地

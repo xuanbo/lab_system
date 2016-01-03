@@ -118,7 +118,18 @@ public class LabClassController {
 			@RequestParam String state, ModelMap modelMap){
 
 		int labClassId = Integer.parseInt(id);
-		String labActivityState = EncodingTool.encodeStr(state);
+		//String labActivityState = EncodingTool.encodeStr(state);
+		System.out.println(state);
+		String labActivityState = null;
+		if(state.equals("list")){
+			labActivityState = "预约待处理";
+		}else if(state.equals("stateOk")){
+			labActivityState = "预约成功";
+		}else if(state.equals("stateFail")){
+			labActivityState = "预约失败";
+		}else{
+			labActivityState = "实验已结束";
+		}
 		
 		Page<LabActivity> pages = new Page<LabActivity>();
 		pages.setCurrent(1);
@@ -127,7 +138,7 @@ public class LabClassController {
 		pages.setList(labActivityService.getByLabClassAndLabActivityState(labClassId, labActivityState, 1, 8));
 		
 		modelMap.addAttribute("labClass", labClassService.get(labClassId));
-		modelMap.addAttribute("labActivityState", labActivityState);
+		modelMap.addAttribute("labActivityState", state);
 	    modelMap.addAttribute("pages", pages);	
 		return "labClass/detail";		
 	}
@@ -138,8 +149,19 @@ public class LabClassController {
         int size = jsonObject.getInt("size");
         int current = jsonObject.getInt("current");
 		int labClassId = Integer.parseInt(id);
-		String labActivityState = EncodingTool.encodeStr(state);
-		
+		//String labActivityState = EncodingTool.encodeStr(state);
+		System.out.println(state);
+		String labActivityState = null;
+		if(state.equals("list")){
+			labActivityState = "预约待处理";
+		}else if(state.equals("stateOk")){
+			labActivityState = "预约成功";
+		}else if(state.equals("stateFail")){
+			labActivityState = "预约失败";
+		}else{
+			labActivityState = "实验已结束";
+		}
+	
 		Page<LabActivity> pages = new Page<LabActivity>();
 		pages.setCurrent(current);
 		pages.setSize(size);
@@ -147,7 +169,7 @@ public class LabClassController {
 		pages.setList(labActivityService.getByLabClassAndLabActivityState(labClassId, labActivityState, current, size));
 		
 		modelAndView.addObject("labClass", labClassService.get(labClassId));
-		modelAndView.addObject("labActivityState", labActivityState);
+		modelAndView.addObject("labActivityState", state);
 		modelAndView.addObject("pages", pages);	
 		modelAndView.setViewName("labClass/detail");
 		return modelAndView;		
